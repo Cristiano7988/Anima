@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Paisagem</title>
+	<link rel="stylesheet" href="itens.css">
+
+	<style type="text/css">
+	</style>
+	<script>
+		
+		function efeito(e){
+	
+			var a = document.getElementById('sol').style.border = black;
+
+		}
+	</script>
+	</head>
+
+	<body style="background: -webkit-radial-gradient(left top , white, deepskyblue)">
+		<div id="sol"></div>
+		<div id="nuvem" class="nuvem1"></div>
+		<div id="nuvem" class="nuvem2"></div>
+		<div id="nuvem" class="nuvem3"></div>
+		<div class="chão" onclick="efeito(e)">
+
+		</div>
+		<div class="piramide">
+			<svg width="400" height="400" style="position: absolute; bottom:10px;">
+				<polygon points="0 312, 300 322, 200 50" style="fill:khaki;" />
+				<polygon points="300 322, 400 312, 200 50" style="fill:orange;" />
+
+			</svg>
+		</div>
+		<div id="poste" class="poste1"></div>
+		<div id="poste" class="poste3"></div>
+		<div id="poste" class="poste5"></div>
+
+	</body>
+</html>
